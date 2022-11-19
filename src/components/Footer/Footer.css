@@ -1,6 +1,6 @@
 .footer {
     width: 100%;
-    padding: 6rem 0;
+    padding: 1rem 0 0 6rem;
     background: rgba(0,0,0,.8);
 
 }
@@ -30,6 +30,17 @@
     margin: auto;
 }
 
+/*CUSTOM IDEA */
+
+.footer .right .social {
+    padding-top: 2rem;
+}
+/*
+.footer .right .social svg:hover {
+    background-color: gray;
+} 
+*/
+
 .footer h4 {
     font-size: 1.4rem;
     padding: 1rem 0;
@@ -54,6 +65,9 @@
     padding-top: 0;
 }
 
+/*CUSTOM IDEA */
+
+
 
 @media  screen and (max-width: 640px) {
     .footer-container {
@@ -62,6 +76,8 @@
 
     .right .social {
         margin: auto;
-    }
+        /*CUSTOM IDEA */
+        padding-top: 2rem;
+    }  
     
 }

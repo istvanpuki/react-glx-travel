@@ -1,5 +1,5 @@
 import './Footer.css'
-import {Link} from 'react-router-dom'
+//import {Link} from 'react-router-dom'
 import { FaFacebook, FaLinkedin, FaMailBulk, FaPhone, FaSearchLocation, FaTwitter } from 'react-icons/fa'
 
 const Footer = () => {
@@ -29,9 +29,11 @@ const Footer = () => {
              sequi. Aut suscipit maiores provident possimus.
           </p>
           <div className='social'>
-            <FaFacebook size={30} style={{color: '#ffffff', marginRight: '2rem'}} />
-            <FaTwitter size={30} style={{color: '#ffffff', marginRight: '2rem'}} />
-            <FaLinkedin size={30} style={{color: '#ffffff', marginRight: '2rem'}} />
+            {/* <Link to={{pathname: "http://facebook.com"}} target='blank' rel="noopener noreferer"> <FaFacebook size={30} style={{color: '#ffffff', marginRight: '2rem'}} /> </Link> */}
+            
+            <a href='http://facebook.com' target="blank"> <FaFacebook size={30} style={{color: '#ffffff', marginRight: '2rem'}} /> </a>
+            <a href='http://twitter.com' target="blank"> <FaTwitter size={30} style={{color: '#ffffff', marginRight: '2rem'}} /> </a>
+            <a href='http://linkedin.com' target="blank"> <FaLinkedin size={30} style={{color: '#ffffff', marginRight: '2rem'}} /> </a>
           </div>
         </div>
       </div>
