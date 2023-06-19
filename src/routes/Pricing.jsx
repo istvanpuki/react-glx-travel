@@ -6,10 +6,10 @@ import Footer from "../components/Footer/Footer"
 const Pricing = () => {
   return (
     <div>
-    <Navbar />
-    <HeroImages heading='Pricing' text='Choose your trip' />
-    <PricingCard />
-    <Footer />
+      <Navbar />
+      <HeroImages heading='Pricing' text='Choose your trip' />
+      <PricingCard />
+      <Footer />
     </div>
   )
 }
